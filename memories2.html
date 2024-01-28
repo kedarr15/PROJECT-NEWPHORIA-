@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="memories2.css">
+    <title>Post Memories</title>
+</head>
+<body>
+    <h1>Post your Memories here!</h1>
+    <div class="container">
+        <h2>Post an Image</h2>
+        <form id="imageForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="file" id="image" accept="image/*" required>
+            <textarea id="description" placeholder="Description" required></textarea>
+            <button type="submit">Post</button>
+        </form>
+        <div id="imageGallery"></div>
+    </div>
+
+<script src="memories2.js"></script>
+</body>
+</html>

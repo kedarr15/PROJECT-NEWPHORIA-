@@ -1,0 +1,134 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax-section {
+    /* The image used */
+    background-image: url('https://cdn.wallpapersafari.com/7/80/nu7mrQ.jpg');
+
+    /* Full height */
+    height: 150%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-section {
+    height: 850px; /* or as per content */
+    background-color:#992b66;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-family:fantasy;
+    font-size: 100px;
+    text-shadow: 2px 2px 8px black;;
+    color:white
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.time {
+    width: 295px;
+    height: 720px;
+    border: 1px solid #000;
+    float: inline-start;
+    border-radius: 6px;
+   
+}
+
+.location{
+    border: 1px solid #000;
+    width: 295px;
+    height: 720px;
+    float: inline-start;
+    text-align: center;
+    border-radius: 6px;
+   
+}
+
+.about{
+    border: 1px solid #000;
+    width: 295px;
+    height: 720px;
+    float: inline-start;
+    border-radius: 6px;
+    
+}
+
+.border-box {
+    width: 895px;
+    height: 720px;
+    border: 5px solid #000;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    background-color:azure;
+    border-radius: 6px;
+  }
+
+iframe{
+    width: 50%;
+    height: 50%;
+}
+
+.btn1{
+    width: 150px;
+    height: 90px;
+    background-color:#00aaff;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn2{
+    width: 150px;
+    height: 90px;
+    background-color:#00aaff;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn3{
+    width: 150px;
+    height: 90px;
+    background-color:#00aaff;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.card3{
+    border: 7px solid black;
+    padding: 1rem 1rem;
+    float:inline-start;
+    margin: 20px;
+    background-color:azure;
+    border-radius: 15px;
+}
+
+.card4{
+    border: 7px solid black;
+    padding: 1rem 1rem;
+    float:inline-start;
+    margin: 20px;
+    background-color:azure;
+    border-radius: 15px;
+}
