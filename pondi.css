@@ -6,7 +6,7 @@ body, html {
 
 .parallax-section {
     /* The image used */
-    background-image: url('https://cdn.gencraft.com/prod/user/0a4ba168-118a-4d8b-962e-ec0ecf29e0b4/a34bb59f-7400-4abc-8b6c-e385fb942bb0/image/image0_0.jpg?Expires=1706339106&Signature=Mkvn9xEIf2qcb6fc5AMtgbCLVwHtmaeRyaSofV7e42oMSmnhQSU3p5M8xDY0V5uv0ZPpTNY4qyBu3obx8tSx6A0uVSKwah~FuiDJ3ZjppmnuucB9AnB4b2RESD65kI5nQWbF5JtS4lYojn4lWGnP7f7CmCE2DgyRWVJvsrvUxZPWTj46zXEwx8ZI2wvCrsGVNYrHcEgvMNXFNtt~uojhhK7aLW8kq8VtkT3BrMcToIBB3E02N6KqYRN4fQ01xOLRRYBIf2uN0MsPrdlPZFwLjq4OCVua~fOiW5Z0TADYAATRUpmsSGJtTo33CiZzTBwLaicAsDAHzijid-lEXAwqFg__&Key-Pair-Id=K3RDDB1TZ8BHT8');
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/58/Sunset_2007-1.jpg');
 
     /* Full height */
     height: 150%;
@@ -171,6 +171,14 @@ header{
         color: rgb(32, 32, 32);
         }
 
+        header a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        header a:hover {
+            text-decoration: none;
+        }
 
         nav{
         position: fixed;
