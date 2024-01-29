@@ -227,12 +227,6 @@ section .container{
     font-size: 0.9rem;
     line-height: 1.5;
   }
-  
-  @media (max-width: 768px) {
-    .service-box {
-      flex-basis: 100%;
-    }
-  }
 
   .line-divider {
     width: 95%;
